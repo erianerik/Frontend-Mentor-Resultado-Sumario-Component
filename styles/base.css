@@ -1,0 +1,26 @@
+@import url(./fonts.css);
+
+:root {
+    -clr-primary: hsl(0, 0%, 100%);
+    --clr-primary-summary-background: hsl(234, 85%, 45%);
+    --clr-primary-button: hsl(224, 30%, 27%);
+
+    --clr-summary-reaction: hsl(0, 100%, 67%);
+    --clr-summary-memory: hsl(39, 100%, 56%);
+    --clr-summary-verbal: hsl(166, 100%, 37%);
+
+    --clr-sumary-max-items: hsl(221, 100%, 96%);
+    --clr-sumary-total-items: hsl(241, 100%, 89%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Hanken Grotesk";
+}
