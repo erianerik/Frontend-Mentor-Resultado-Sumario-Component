@@ -1,16 +1,20 @@
 @import url(./fonts.css);
 
 :root {
-    -clr-primary: hsl(0, 0%, 100%);
-    --clr-primary-summary-background: hsl(234, 85%, 45%);
+    --clr-primary: hsl(0, 0%, 100%);
+    --clr-primary-summary-background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     --clr-primary-button: hsl(224, 30%, 27%);
+    --clr-result-ammount: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 
-    --clr-summary-reaction: hsl(0, 100%, 67%);
-    --clr-summary-memory: hsl(39, 100%, 56%);
-    --clr-summary-verbal: hsl(166, 100%, 37%);
+    --clr-secondary-text: hsl(224, 30%, 27%);
+
+    --clr-summary-reaction: 0, 100%, 67%;
+    --clr-summary-memory: 39, 100%, 56%;
+    --clr-summary-verbal: 166, 100%, 37%;
+    --clr-summary-visual: 234, 85%, 45%;
 
     --clr-sumary-max-items: hsl(221, 100%, 96%);
-    --clr-sumary-total-items: hsl(241, 100%, 89%);
+    --clr-sumary-text: hsl(241, 100%, 89%);
 }
 
 * {
@@ -23,4 +27,9 @@ body {
     font-size: 16px;
     font-weight: normal;
     font-family: "Hanken Grotesk";
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
